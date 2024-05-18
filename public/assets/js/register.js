@@ -1,48 +1,70 @@
-const nextButton = document.querySelector('.btn-next');
-const prevButton = document.querySelector('.btn-prev');
-const steps = document.querySelectorAll('.step');
-const form_steps = document.querySelectorAll('.form-step');
-let active = 1;
+$(document).ready(function () {
 
+    var current_fs, next_fs, previous_fs;
 
-nextButton.addEventListener('click', () => {
-    active++;
-    if (active > steps.length){
-        active = steps.length;
+    // No BACK button on first screen
+    if ($(".show").hasClass("first-screen")) {
+        $(".prev").css({ 'display': 'none' });
     }
-    updateProgress();
-})
 
-prevButton.addEventListener('click', () => {
-    active--;
-    if (active < 1){
-        active = 1;
-    }
-    updateProgress();
-})
+    // Next button
+    $(".next-button").click(function () {
 
+        current_fs = $(this).parent().parent();
+        next_fs = $(this).parent().parent().next();
 
-const updateProgress = () => {
-    console.log('step.length =>' + steps.length);
-    console.log('active=>' + active);
+        $(".prev").css({ 'display': 'block' });
 
-    steps.forEach((step, i) => {
-        if (i == (active-1)){
-            step.classList.add('active');
-            form_steps[i].classList.add('active');
-            console.log('i=>' +i);
-        } else{
-            step.classList.remove('active');
-            form_steps[i].classList.remove('active');
-        }
+        $(current_fs).removeClass("show");
+        $(next_fs).addClass("show");
+
+        $("#progressbar li").eq($(".card2").index(next_fs)).addClass("active");
+
+        current_fs.animate({}, {
+            step: function () {
+
+                current_fs.css({
+                    'display': 'none',
+                    'position': 'relative'
+                });
+
+                next_fs.css({
+                    'display': 'block'
+                });
+            }
+        });
     });
 
-    if (active === 1){
-        prevButton.disabled = true;
-    } else if (active === steps.length){
-        nextButton.disabled  = true;
-    } else {
-        prevButton.disabled = false;
-        nextButton.disabled = false;
-    }
-}
+    // Previous button
+    $(".prev").click(function () {
+
+        current_fs = $(".show");
+        previous_fs = $(".show").prev();
+
+        $(current_fs).removeClass("show");
+        $(previous_fs).addClass("show");
+
+        $(".prev").css({ 'display': 'block' });
+
+        if ($(".show").hasClass("first-screen")) {
+            $(".prev").css({ 'display': 'none' });
+        }
+
+        $("#progressbar li").eq($(".card2").index(current_fs)).removeClass("active");
+
+        current_fs.animate({}, {
+            step: function () {
+
+                current_fs.css({
+                    'display': 'none',
+                    'position': 'relative'
+                });
+
+                previous_fs.css({
+                    'display': 'block'
+                });
+            }
+        });
+    });
+
+});

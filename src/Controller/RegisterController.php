@@ -72,12 +72,13 @@ class RegisterController extends AbstractController
                     'succes',
                     'Inscription effectuer'
                 );
+                return $this->render('registersucces.html.twig',[]);
                 }
                 
             }
-            return $this->render('register/index.html.twig', [
-                'errors' => 'MainController',
-            ]);
+                return $this->render('register/index.html.twig',[]);
+            
+            
             
         
         
