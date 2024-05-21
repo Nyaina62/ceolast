@@ -1,6 +1,14 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}CEO BUSINESS FORUM IO{% endblock %}
+{% block links %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+{% endblock %}
 
 {% block body %}
 <section id="parallax" class="parallax">
@@ -272,134 +280,7 @@
         <h3 class="txt-center">Animations et ateliers</h3>
         <div class="row">
             <div class="slider">
-                <div class="slide-track">
 
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo3.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Keynote
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo4.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Intervention des Guest Speakers
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo5.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Conférences plénières
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo6.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Ateliers thématiques
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo7.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Ateliers pays
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo8.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Happenings culturels
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo9.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Réseautage
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo10.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Partenariats publics et privés
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo11.jpg')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Signature convention et accord de partenariat
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <div class="img-top" style="width: 100%; height: 250px;">
-                                <img class="card-img-top" style="height: 50px;" src="{{ asset('assets/img/new/GATEAFR.png')}}"
-                                    alt="Card image">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;  line-height: 21px;">
-                                    Présentation du nouveau social de l’Afrique et de l’océan Indien « GateAfri »
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="event"></div>
-
-                </div>
             </div>
         </div>
 
@@ -434,296 +315,215 @@
         </div>
     </div>
 </section>
-<section id="cibles">
+<section id="reportage">
     <div class="top">
-        <h1 class="gd-title txt-center">Les cibles</h1>
+        <h1 class="mb-4">Reportages photos</h1>
+        <h4>Photos marquant la conférence de presse et le lancement officiel de l'évenement <br>qui s'est déroulé au CCI
+            Ivato Antananarivo le 14 Mai 2024</h4>
+        <p class="text-justify">La présentation du CEO BUSINESS FORUM INDIAN OCEAN A suscité une réaction enthousiaste parmi
+            l'assistance,composée de la communauté économique nationale et internatinale,représentants de groupements
+            professionnels,des responsables gouvernementaux,des organismes internationaux, des acteurs économiques ainsi
+            que des membres du corps diplomatique.</p>
     </div>
     <div class="bottom">
-        <p>- Les cibles de l'événement incluent les CEOs, les acteurs économiques, les dirigeants du secteur public
-            et privé, les entrepreneurs et les structures d'appui, les investisseurs et les business angels, ainsi
-            que les organismes institutionnels pertinents des pays riverains de l'océan Indien (Afrique du Sud,
-            Comores, Kenya, Madagascar, La Réunion, Maurice, Mozambique, Seychelles, Somalie, Tanzanie, Bangladesh,
-            Inde, Indonésie, Iran, Maldives, Malaisie, Oman, Singapour, Sri Lanka, Thaïlande, Yémen, Australie,
-            Birmanie, Pakistan), et ses pays partenaires en Europe, Asie, Amérique et d'autres pays africains, ainsi
-            que le monde diplomatique, les médias et les influenceurs.
-            - Des centaines de personnalités, y compris des chefs d'État, des ministres, des chefs d'entreprise, des
-            investisseurs, des créateurs et des influenceurs, seront mobilisées lors de l'événement.
-            - Le CEO BUSINESS FORUM - INDIAN OCEAN sera un événement annuel, tournant, et organisé dans les pays
-            membres.
-        </p>
+        <div class="reportage-slider">
+            <div class="slide">
+                <div class="capt">
+                    <h1 class="text-center">Photos marquant <br>la préparation <br>du FORUM</h1>
+                </div>
+            </div>
+            <div class="slide flex flex-column">
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/1.jpg')}}" alt="">
+                </div>
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/2.jpg')}}" alt="">
+                </div>
+            </div>
+            <div class="slide flex flex-column">
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/3.jpg')}}" alt="">
+                </div>
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/4.jpg')}}" alt="">
+                </div>
+            </div>
+            <div class="slide flex flex-column">
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/5.jpg')}}" alt="">
+                </div>
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/6.jpg')}}" alt="">
+                </div>
+            </div>
+            <div class="slide flex flex-column">
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/7.jpg')}}" alt="">
+                </div>
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/8.jpg')}}" alt="">
+                </div>
+            </div>
+            <div class="slide flex flex-column">
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/9.jpg')}}" alt="">
+                </div>
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/10.jpg')}}" alt="">
+                </div>
+            </div>
+            <div class="slide flex flex-column">
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/11.jpg')}}" alt="">
+                </div>
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/12.jpg')}}" alt="">
+                </div>
+            </div>
+            <div class="slide flex flex-column">
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/13.jpg')}}" alt="">
+                </div>
+                <div class="img position-relative">
+                    <img class="position absolute" src="{{ asset('assets/img/sary/15.jpg')}}" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
-<section id="avantages">
+<section id="guest">
     <div class="top">
-        <h1 class="gd-title">Les avantages de Madagascar<br /> pour l’accueil de l’évènement</h1>
-        <p><strong>L'organisation du CEO Business Forum - Indian Ocean à Madagascar</strong> revêt une importance
-            capitale. Cet événement accroît la visibilité internationale du pays en tant que destination privilégiée
-            pour les affaires et le tourisme, stimule l'économie locale en engendrant des retombées financières
-            conséquentes, renforce les liens internationaux, et offre aux entreprises Malgaches l'opportunité
-            d'établir des partenariats stratégiques et d'étendre leur réseau professionnel.
-            De ce fait, il catalyse la croissance économique du pays ainsi que de la région dans son ensemble.
-            Madagascar jouit d'une position géographique centrale au sein de l'océan Indien, ce qui en fait un
-            carrefour idéal pour les échanges commerciaux et les rencontres internationales.
+        <h1>Qui sont les GUEST SPEAKER<br> et nos MAIN SPEAKER <br>pour ce grand forum économique<br> du 14 au 15
+            Novembre 2024 ?</h1>
+        <p>Rendez-vous <strong>ce 14 Juin</strong> pour les connaitre</p>
+    </div>
+    <div class="bottom">
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+        <div class="guest">
+            <img src="{{ asset('assets/img/guest.png')}}" alt="">
+        </div>
+    </div>
+    <div class="mt-3">
+        <p class="text-center">Voulez-vous devenir un de nos Guest Speaker ou Main Speaker ?<br>Envoyez votre dossier de
+            candidature en cliquant <a href="{{ path('register') }}">ici</a></p>
+    </div>
+</section>
+<section id="hote">
+    <div class="top px-0">
+        <div class="logo">
+            <img src="{{ asset('assets/img/png/ceo2.png') }}" alt="ciel" id="ceo" srcset="">
+        </div>
+        <h1>MADAGASCAR :</h1>
+        <h4>Un pays hôte aux atouts multiples</h4>
+        <hr>
+    </div>
+    <div class="bottom px-0">
+        <div class="bbl">
+            <p>Le choix de madagascar comme pays hote du CEO Business Forum - Indian Ocean n'est pas fortuit. La Grande
+                Île présente de nombreux avantages indéniables</p>
+        </div>
+        <ul>
+            <li>- Un evironnement économique stable et attractif</li>
+            <li>- Une main-d'oeuvre qualifiée et dynamique</li>
+            <li>- Un Cadre naturel exceptionnel et une culture riche</li>
+            <li>- Une position stratégique au coeur de l'Océan</li>
+        </ul>
+        <div class="bbl">
+            <p>Accueillir cet évenement préstigieux sera une source de fierté pour Madagascar et contribuera à :</p>
+        </div>
+        <ul>
+            <li>- Renforcer son image de déstination d'affaires</li>
+            <li>- Attirer des investissements étragers</li>
+            <li>- Stimuler la création d'emplois</li>
+            <li>- Promouvoir le développement économique du pays</li>
+            <li>- Positionner Madagascar en tant qu'acteur économique clé dans la région</li>
+        </ul>
+    </div>
+</section>
+<section id="pavillon">
+    <div class="top px-0">
+        <h1>PAVILLON DE MADAGASCAR:</h1>
+        <p class="text-white">Pavillon vitrine de Madagascar, pays récepteur de la première édition de
+            l'évenement sous form de sallon ou d'éxposition, ils accueillerons plusieurs participants et les acteurs
+            économiques
+            de Madagascar.Ces pavillons mettront donc en valeur l'économie de Madagascar, et sera surtout le reflet de
+            l'économie Malagasy (artisanat, industrie, technologie, etc.)
         </p>
-        <h2 class="txt-center">Madagascar : Un pays hôte aux atouts multiples</h2>
+        <h2>Les cibles :</h2>
     </div>
-    <div class="bottom flex gap-10">
-        <div>
-            <h3>Le choix de Madagascar comme pays hôte du CEO Business Forum - Indian Ocean n'est pas fortuit. La
-                Grande Ile présente de nombreux avantages indéniables :</h3>
-            <ul>
-                <li>Un environnement économique stable et attractif</li>
-                <li>Une main-d'œuvre qualifiée et dynamique</li>
-                <li>Un cadre naturel exceptionnel et une culture riche</li>
-                <li>Une position stratégique au cœur de l'Océan Indien</li>
-            </ul>
+    <div class="bottom px-0">
+        <div class="">
+            <h3>PAVILLON <br>ET VITRINE <br>DE MADAGASCAR <br><br>PAYS HOTE DE LA PREMIERE ÉDITION</h3>
         </div>
-        <div>
-            <h3>Accueillir cet événement prestigieux sera une source de fierté pour Madagascar et contribuera à :
-            </h3>
-            <ul>
-                <li>Renforcer son image de destination d'affaires</li>
-                <li>Attirer des investissements étrangers</li>
-                <li>Stimuler la création d'emplois</li>
-                <li>Promouvoir le développement économique du pays</li>
-                <li>Positionner Madagascar en tant qu’acteur économique clé dans la région</li>
-            </ul>
+        <div class="pavillon-item position-relative">
+            <div class="ico position-absolute"><i class="fa-solid fa-business-time"></i></div>
+            <h3>EXPOSITION</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, omnis odio aspernatur cum doloremque
+                consequatur non nemo. Exercitationem!</p>
         </div>
-    </div>
-    <div>
-        <p class="txt-center"><strong>CEO Business Forum - Indian Ocean</strong> constitue une occasion
-            exceptionnelle pour Madagascar et son économie.</p>
-    </div>
-</section>
-<section id="stat" class="stat">
-    <div class="">
-        <div class="stat-content">
-            <h2>Statistiques sur l'Océan Indien </h2>
-            <div class="card-stat" style="width: 250px; margin-left: 0;">
-                <h4 class="card-title-stat">POPULATION</h4>
-                <img class="card-img-top-stat" src="{{ asset('assets/img/population2.webp')}}" alt="Card image">
-                <div class="card-body-stat">
-
-                    <p class="card-text-stat" style="color: black;">
-                        - Plus de 2 milliards d'habitants, soit environ 24% de la population mondiale. <br>
-                        - Pays les plus peuplés : Inde, Bangladesh, Pakistan, Iran, et Indonésie. <br>
-                        - Densité moyenne de 30 habitants par km², mais avec de grandes disparités (ex: 1100 hab/km²
-                        aux Maldives).
-
-                    </p>
-                </div>
-            </div>
-
-            <div class="card-stat" style="width:250px; ">
-                <h4 class="card-title-stat">SURFACE</h4>
-                <img class="card-img-top-stat" src="{{ asset('assets/img/superficie-terre.jpg')}}" alt="Card image">
-                <div class="card-body-stat">
-                    <p class="card-text-stat" style="color: black;">
-                        - 70 560 000 km², soit 14% de la surface terrestre du globe. <br><br>
-                        - Troisième plus grand océan après le Pacifique et l'Atlantique. <br><br>
-                        - Limité par l'Afrique à l'ouest, l'Asie au nord, l'Australie à l'est et l'Antarctique au
-                        sud.
-                    </p>
-                </div>
-            </div>
-
-            <div class="card-stat" style="width:250px">
-                <h4 class="card-title-stat">ECONOMIE</h4>
-                <img class="card-img-top-stat" src="{{ asset('assets/img/economie2.webp')}}" alt="Card image">
-                <div class="card-body-stat">
-                    <p class="card-text-stat" style="color: black;">
-                        - Zone économique en pleine croissance, avec un PIB de plus de 7 000 milliards de dollars en
-                        2023. <br>
-                        - Secteurs clés : agriculture, pêche, tourisme, industries manufacturières et services. <br>
-                        - Pays émergents : Inde, Chine, Afrique du Sud, et Kenya.
-                    </p>
-                </div>
-            </div>
-
-            <div class="card-stat" style="width:250px">
-                <h4 class="card-title-stat">POTENTIALITES</h4>
-                <img class="card-img-top-stat" src="{{ asset('assets/img/Potentialités.jpg')}}" alt="Card image">
-                <div class="card-body-stat">
-                    <p class="card-text-stat" style="color: black;">
-                        - Richesses naturelles importantes : pétrole, gaz naturel, minéraux, et ressources
-                        marines.<br>
-                        - Développement des énergies renouvelables : solaire, éolienne, et hydroélectrique. <br>
-                        - Expansion du commerce international et des infrastructures.
-                    </p>
-                </div>
-            </div>
+        <div class="pavillon-item position-relative">
+            <div class="ico position-absolute"><i class="fa-solid fa-business-time"></i></div>
+            <h3>ANIMATION</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, omnis odio aspernatur cum doloremque
+                consequatur non nemo. Exercitationem!</p>
+        </div>
+        <div class="pavillon-item position-relative">
+            <div class="ico position-absolute"><i class="fa-solid fa-business-time"></i></div>
+            <h3>PROMOTION</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, omnis odio aspernatur cum doloremque
+                consequatur non nemo. Exercitationem!</p>
+        </div>
+        <div class="pavillon-item position-relative">
+            <div class="ico position-absolute"><i class="fa-solid fa-shop"></i></div>
+            <h3>VENTES</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, omnis odio aspernatur cum doloremque
+                consequatur non nemo. Exercitationem!</p>
+        </div>
+        <div class="pavillon-item position-relative">
+            <div class="ico position-absolute"><i class="fa-regular fa-building"></i></div>
+            <h3>B2C</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, omnis odio aspernatur cum doloremque
+                consequatur non nemo. Exercitationem!</p>
         </div>
     </div>
 </section>
-<section id="program">
-    <div class="top">
-        <h1 class="gd-title txt-center">Les programmes du CEO Networking<br /> Indian Ocean CCI Ivato</h1>
-    </div>
-    <div class="bottom flex">
-        <div class="j-item">
-            <div class="top">
-                <h2 class="txt-center">Jeudi 14 novembre 2024</h2>
-            </div>
-            <div class="bottom flex gap-10">
-                <div class="left">
-                    <ul>
-                        <li>
-                            <a href="#" class="active">08h - 09h</a>
-                        </li>
-                        <li>
-                            <a href="#">09h - 09h30</a>
-                        </li>
-                        <li>
-                            <a href="#">09h30 - 10h</a>
-                        </li>
-                        <li>
-                            <a href="#">11h - 12h30</a>
-                        </li>
-                        <li>
-                            <a href="#">12h30 - 13h30</a>
-                        </li>
-                        <li>
-                            <a href="#">13h30 - 14h30</a>
-                        </li>
-                        <li>
-                            <a href="#">14h30 - 16h</a>
-                        </li>
-                        <li>
-                            <a href="#">16h - 16h15</a>
-                        </li>
-                        <li>
-                            <a href="#">16h15 - 17h30</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="right">
-                    <div class="h">
-                        <h3>08h à 09h</h3>
-                        <p>Accueil des invités et enregistrement</p>
-                    </div>
-                    <div class="h">
-                        <h3>09h à 09h30</h3>
-                        <p>Cérémonie d’ouverture</p>
-                    </div>
-                    <div class="h">
-                        <h3>09h30 à 10h</h3>
-                        <p>Keynote 1 - Guest speaker (3 Invités)</p>
-                    </div>
-                    <div class="h">
-                        <h3>11h à 12h30</h3>
-                        <p>Keynote 2 - Guest Speaker (5 invités)</p>
-                    </div>
-                    <div class="h">
-                        <h3>12h30 à 13h30</h3>
-                        <p>Pause déjeuner</p>
-                    </div>
-                    <div class="h">
-                        <h3>13h30 à 14h30</h3>
-                        <p>Session ministérielle</p>
-                    </div>
-                    <div class="h">
-                        <h3>14h30 à 16h</h3>
-                        <p>3 ateliers en parallèle dans 3 salles différentes. Keynote 3
-                            4 Guest Speaker dans chaque salle.
-                        </p>
-                    </div>
-                    <div class="h">
-                        <h3>16h à 16h15</h3>
-                        <p>Pause-café</p>
-                    </div>
-                    <div class="h">
-                        <h3>16h15 à 17h30</h3>
-                        <p>Séance de B2B, B2G et de Networking selon thématique.
-                            Se déroulera dans 3 salles différentes
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="j-item">
-            <div class="top">
-                <h2 class="txt-center">vendredi 15 novembre 2024</h2>
-            </div>
-            <div class="bottom flex gap-10">
-                <div class="left">
-                    <ul>
-                        <li>
-                            <a href="#" class="active">09h - 09h30</a>
-                        </li>
-                        <li>
-                            <a href="#">09h30 - 10h</a>
-                        </li>
-                        <li>
-                            <a href="#">10h - 10h15</a>
-                        </li>
-                        <li>
-                            <a href="#">10h15 - 11h</a>
-                        </li>
-                        <li>
-                            <a href="#">12h30 - 13h30</a>
-                        </li>
-                        <li>
-                            <a href="#">13h30 - 14h30</a>
-                        </li>
-                        <li>
-                            <a href="#">14h30 - 16h</a>
-                        </li>
-                        <li>
-                            <a href="#">16h - 16h15</a>
-                        </li>
-                        <li>
-                            <a href="#">16h15 - 17h30</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="right">
-                    <div class="h">
-                        <h3>09h à 09h30</h3>
-                        <p>Keynote 4 avec 2 Guest speaker</p>
-                    </div>
-                    <div class="h">
-                        <h3>09h30 à 10h</h3>
-                        <p>Session Ministérielle</p>
-                    </div>
-                    <div class="h">
-                        <h3>10h à 10h15</h3>
-                        <p>Pause-café</p>
-                    </div>
-                    <div class="h">
-                        <h3>10h15 à 11h</h3>
-                        <p>Keynote 2 - Guest Speaker (5 invités)</p>
-                    </div>
-                    <div class="h">
-                        <h3>11h à 12h</h3>
-                        <p>Keynote 6 – Guest Speaker (3 invités)</p>
-                    </div>
-                    <div class="h">
-                        <h3>12h à 13h</h3>
-                        <p>Pause déjeuner</p>
-                    </div>
-                    <div class="h">
-                        <h3>14h30 à 16h</h3>
-                        <p>3 ateliers en parallèle dans 3 salles différentes. Keynote 3
-                            4 Guest Speaker dans chaque salle.
-                        </p>
-                    </div>
-                    <div class="h">
-                        <h3>16h à 16h15</h3>
-                        <p>Pause-café</p>
-                    </div>
-                    <div class="h">
-                        <h3>16h15 à 17h30</h3>
-                        <p>Séance de B2B, B2G et de Networking selon thématique.
-                            Se déroulera dans 3 salles différentes
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div style="text-align: center;">
-        <button class="button" style="margin: auto;">Telecharger la brochure</button>
-    </div>
-    
-</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="{{ asset('assets/js/doslider.js')}}"></script>
 {% endblock %}
