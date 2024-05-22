@@ -180,7 +180,7 @@
 }
 
 .fade .img-obj {
-
+    object-fit: cover;
     width: 250px;
     height: 282px;
     position: absolute;
@@ -242,13 +242,7 @@
 }
 .cible .map img{
     width: 550px;
-    border: solid 1px var(--blue3);
-    border-radius: 8px;
-    height: 300px;
-    margin-right: 30px;
-}
-.cible-content{
-    width: 600px;
+
 }
 .cible .cible-title{
     color: var(--blue2);
