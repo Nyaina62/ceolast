@@ -1,0 +1,19 @@
+$(document).ready(function(){
+    $('.secteur').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+  });
+
+
+  $(document).ready(function(){
+    $('.sld-video').slick({
+    //   dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      adaptiveHeight: true
+    });
+  });

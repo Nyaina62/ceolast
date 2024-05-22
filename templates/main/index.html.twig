@@ -1,729 +1,354 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}CEO BUSINESS FORUM IO{% endblock %}
+{% block title %}CEO BUSINESS FORUM IO
+{% endblock %}
 
 {% block body %}
-<section id="parallax" class="parallax">
-    <div class="parallax">
-        <img src="{{ asset('assets/img/png/ciel.png') }}" alt="ciel" id="ciel" srcset="">
-        <img src="{{ asset('assets/img/png/mer.png') }}" alt="mer" id="mer" srcset="">
-        <img src="{{ asset('assets/img/png/bulding.png') }}" alt="ciel" id="bulding" srcset="">
-        <img src="{{ asset('assets/img/png/ceo2.png') }}" alt="ciel" id="ceo" srcset="">
-    </div>
-</section>
-<div id="acceuil" class="banner">
-    <div class="capt">
-        <div class="logo">
-            <img src="{{ asset('assets/img/ceo2.png') }}" alt="">
-        </div>
-        <h1>Le plus grand forum économique des pays riverains et partenaires de l’océan Indien va se dérouler à
-            Madagascar pour cette année 2024.</h1>
-        <div class="countdown">
-            <div id="countdown">
-                <div>
-                    <span id="countdown_day">--</span>
-                    <small>Jours</small>
-                </div>
-                <div>
-                    <span id="countdown_hour">--</span>
-                    <small>heures</small>
-                </div>
-                <div>
-                    <span id="countdown_min">--</span>
-                    <small>minutes</small>
-                </div>
-                <div>
-                    <span id="countdown_sec">--</span>
-                    <small>secondes</small>
-                </div>
-            </div>
-        </div>
-        <button class="button"><a href="{{ path('register') }}">s'inscrire maintenant</a></button>
-    </div>
-</div>
-<section id="forum">
-    <div class="top flex">
-        <div class="left">
-            <img src="{{ asset('assets/img/new/ceo1.webp') }}" alt="">
-            <img src="{{ asset('assets/img/new/ceo2.webp') }}" alt="">
-        </div>
-        <div class="right">
-            <h1 style="color: #25a0d8;">Le forum</h1>
-            <p>
-                <span class="tab"></span>Cette année, CEO BUSINESS FORUM – INDIAN OCEAN va interconnecter,
-                vulgariser
-                et mettra
-                en valeur les potentiels économiques des pays riverains de l’océan Indien.<br> <br>
-                Améliorer et dynamiser les échanges économiques, réseauter, et faire de l’océan indien un pole
-                économique incontournable sur le marché mondial.<br>
-                <span class="tab"></span>1000 CEOs, investisseurs et dirigeants parmi les plus influents issus des
-                25 pays riverains de
-                l'océan Indien vont participer à ce forum de deux jours : Afrique du Sud, Comores, Kenya,
-                Madagascar, La Réunion, Maurice, Mozambique, Seychelles, Somalie, Tanzanie, Bangladesh,
-                Inde, Indonésie, Iran, Maldives, Malaisie, Oman, Singapour, Sri Lanka, Thaïlande, Yémen,
-                Australie, Birmanie, Pakistan, et ses pays partenaires en Europe, Asie, Amérique et d'autres pays
-                <span class="tab"></span>africains, ainsi que le monde diplomatique, les médias et les influenceurs.
-                <br><br>
-                Ce forum prestigieux favorisera les échanges en vue d'établir des partenariats mutuellement
-                bénéfiques entre les pays participants et ses partenaires. Le CEO Business Forum - Indian
-                Ocean vise également à créer un rendez-vous incontournable pour les acteurs des écosystèmes
-                entrepreneuriaux ainsi que leurs partenaires, mettant en avant les entrepreneurs et acteurs
-                économiques. Il offrira une occasion privilégiée de réseautage en mettant en lumière les
-                investissements publics et privés, facilitant notamment les échanges B2B, B2C, BtoG et GtoG.
-            </p>
-        </div>
-    </div>
-    <!-- <div class="bottom flex illustration">
-        <div class="img">
-            <img src="/img/1.png" alt="">
-        </div>
-        <div class="img">
-            <img src="/img/1.png" alt="">
-        </div>
-        <div class="img">
-            <img src="/img/1.png" alt="">
-        </div>
-        <div class="img">
-            <img src="/img/1.png" alt="">
-        </div>
-    </div> -->
-</section>
-<section id="who" class="section-four">
-    <div class="content">
-        <div class="box3 who">
-            <p>
-                <span style="background: transparent; font-size: 30px;"><b>Qui-sommes-nous?</b></span>
-                <span class="tab"></span>Nous sommes une initiative de GateNews.Africa, une plateforme numérique
-                spécialisée dans l’économie Africaine. Fondée et dirigée par des talents malgaches, notre
-                plateforme est reconnue pour son expertise et sa pertinence dans le domaine de l’information
-                économique en Afrique. <br>
+	<section id="parallax" class="parallax">
+		<div class="parallax">
+			<img src="{{ asset('assets/img/png/ciel.png') }}" alt="ciel" id="ciel" srcset="">
+			<img src="{{ asset('assets/img/png/mer.png') }}" alt="mer" id="mer" srcset="">
+			<img src="{{ asset('assets/img/png/bulding.png') }}" alt="ciel" id="bulding" srcset="">
+			<img src="{{ asset('assets/img/png/ceo2.png') }}" alt="ciel" id="ceo" srcset="">
+		</div>
+	</section>
+	<div id="acceuil" class="banner">
+		<div class="parrain">
+			<span>sous le haut parrainage du:<span></div>
+				<div class="organisme">
+					<span>Organisé par:</span>
+						
+				</div>
+				<div class="capt">
+					<div class="logo">
+						<span></b>
+						Rendez-vous à Madagascar
+					</b>
+				</span>
+				<h1 style="color: var(--blue1)">Ce 14 - 15 Novembre 2024</h1><br>
+			</div>
+			<h1>Le plus grand forum économique des pays riverains et partenaires de l’océan Indien va se dérouler à
+																																																            Madagascar pour cette année 2024.</h1>
+			<div class="countdown">
+				<div id="countdown">
+					<div>
+						<span id="countdown_day">--</span>
+						<small>Jours</small>
+					</div>
+					<div>
+						<span id="countdown_hour">--</span>
+						<small>heures</small>
+					</div>
+					<div>
+						<span id="countdown_min">--</span>
+						<small>minutes</small>
+					</div>
+					<div>
+						<span id="countdown_sec">--</span>
+						<small>secondes</small>
+					</div>
+				</div>
+			</div>
+			<span>Thème :</span>
+			<span>
+				<b>CEO BUSINESS FORUM INDIAN OCEAN "Economie dynamique, partenariats stratégique: l'esprit de l'Océan Indien."</b>
+				<span></div>
+			</div>
+			
+	<section class="sec-secteur" id="theme">
+		<h2>Plusieurs secteurs seront discutés</h2>
+		<div class="secteur">
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-leaf"></i>
+					</div>
+				</div>
+				<span>Economie</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-computer"></i>
+					</div>
+				</div>
+				<span>Numerique</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-cloud-showers-heavy"></i>
+					</div>
+				</div>
+				<span>Climat</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-brands fa-envira"></i>
+					</div>
+				</div>
+				<span>Envirenement</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-brands fa-leanpub"></i>
+					</div>
+				</div>
+				<span>Education</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-water"></i>
+					</div>
+				</div>
+				<span>Economie bleu</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-helmet-safety"></i>
+					</div>
+				</div>
+				<span>Logistique</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-truck-fast"></i>
+					</div>
+				</div>
+				<span>Transport</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-shirt"></i>
+					</div>
+				</div>
+				<span>Textile</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-ship"></i>
+					</div>
+				</div>
+				<span>Tourisme</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-prescription-bottle-medical"></i>
+					</div>
+				</div>
+				<span>Santé</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-bolt"></i>
+					</div>
+				</div>
+				<span>Energie</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-gem"></i>
+					</div>
+				</div>
+				<span>Mines</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-tractor"></i>
+					</div>
+				</div>
+				<span>Agriculture</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-clapperboard"></i>
+					</div>
+				</div>
+				<span>Audiovisuel</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-building-columns"></i>
+					</div>
+				</div>
+				<span>Gouvernance</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-money-bill-trend-up"></i>
+					</div>
+				</div>
+				<span>Finance</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-building"></i>
+					</div>
+				</div>
+				<span>Urbanisation</span>
+			</div>
+			<div class="secteur-content">
+				<div class="content">
+					<div class="icon">
+						<i class="fa-solid fa-hand-holding-heart"></i>
+					</div>
+				</div>
+				<span>Ong et<br>
+					Organisation
+					<br>
+					internationales</span>
+			</div>
+		</div>
+	</section>
 
-                <span class="tab"></span>une audience mondiale en constante expansion, touchant actuellement
-                des millions
-                d’abonnés à travers le monde, notre défi est de devenir un acteur incontournable dans le domaine
-                de l’information et du développement numérique à l’échelle internationale. Nous jouons un rôle
-                essentiel dans la promotion des opportunités d’investissement et dans la mise en relation des
-                acteurs économiques à travers le continent African et le reste du monde. <br>
-                <span class="tab"></span>GateNews.Africa ,une filiale du GATE
-                AFRICA GROUP, fédère
-                une vingtaine de sociétés opérant dans divers secteurs tels que l’éducation, la santé, le tourisme
-                , le numérique, et bien d’autres, formant un réseau solide et dynamique au service de l’économie
-                africaine t de son expansion sur la scène internationale. Ensemble, ces entités possèdent une
-                expertise de plus de vingt ans dans la promotion du capital humain, de l’entrepreneuriat et dans
-                l’organisation d’événements, contribuant au développement durable et à la prospérité en Afrique.
-                Le Groupe comprend également les ONG Gâte Africa et ONG NewLife, renforçant son engagement
-                envers les causes humanitaires et le développement social en Afrique.
-            </p>
-        </div>
-        <div class="box3" style="padding: 0 !important;">
-            <img src="{{ asset('assets/img/gate-news.PNG') }}" alt="" srcset="">
-        </div>
-    </div>
-</section>
-<section id="objectif">
-    <div class="top">
-        <h1 class="gd-title">Objectifs majeurs</h1>
-    </div>
-    <div class="flex gap-10">
-        <div class="ojectif-item">
-            <div class="top">
-                <img src="{{ asset('assets/img/partenariat.jpg')}}" alt="">
-            </div>
-            <div class="capt">
-                <h2>PARTENARIAT GAGNANT-GAGNANT</h2>
-                <p>• <strong>CEO Business Forum – Indian Ocean</strong> a pour objectif principal de devenir un
-                    acteur
-                    incontournable dans
-                    le développement régional et intercontinental. Ce forum prestigieux favorisera les dialogues en
-                    vue
-                    d'établir des partenariats mutuellement bénéfiques entre les pays riverains et les partenaires
-                    de
-                    l'océan Indien. <strong>CEO Business Forum – Indian Ocean</strong> vise également à instaurer un
-                    événement phare réunissant les écosystèmes entrepreneuriaux pour ces acteurs ainsi que leurs
-                    partenaires, mettant en
-                    avant les entrepreneurs et les acteurs économiques.</p>
+	<section class="objectifMaj">
+		<h2 class="title">Les objectifs majeurs de l'evenement</h2>
+		<div class="d-flex align-items-start">
+			<div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+				<button class="nav-link nav-pad active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+					<b>Mobiliser le secteur privé et les gouvernements en faveur du développement</b>
+				</button>
+				<button class="nav-link nav-pad" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+					<b>Promouvoir la coopération régionale et internationale
+					</b>
+				</button>
+				<button class="nav-link nav-pad" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+					<b>Identifier des solutions concrètes aux défis du développement
+					</b>
+				</button>
+				<button class="nav-link nav-pad" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+					<b>Développer le réseautage et les opportunités d' affaires</b>
+				</button>
+			</div>
+			<div class="tab-content" id="v-pills-tabContent">
+				<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+					<div class="img-obj"><img src="{{ asset('assets/img/developpement-afrique.jpg') }}" alt="CEO Business Forum"></div>
+					<div class="text-obj">
+						<span>• Sensibiliser les chefs d'entreprises et les décideurs politiques aux potentialités économiques de la région</span><br><br>
+						<span>• Encourager les investissements du secteur privé et les politiques publiques favorables au développement</span><br><br>
+						<span>• Promouvoir la création de partenariats public-privé pour la réalisation de projets d'envergure</span>
+					</div>
 
-            </div>
-        </div>
-        <div class="ojectif-item">
-            <div class="top">
-                <img src="{{ asset('assets/img/reseautage.jpg')}}" alt="">
-            </div>
-            <div class="capt">
-                <h2>RESEAUTER</h2>
-                <p>• <strong>CEO Business Forum – Indian Ocean</strong> sera un événement de grande envergure axé
-                    sur le réseautage,
-                    mettant en lumière les investissements publics et privés. Il favorisera particulièrement les
-                    échanges B2B, B2C et BtoG.</p>
-                <p>• Nous voulons surtout valoriser la plateforme hybride dans le site web la plateforme partenaire
-                    de <strong>CEO Business Forum – Indian Ocean « GateAfri.com »</strong>, à travers ce dernier,
-                    mettre en exergue
-                    les changes en vue d’avoir une économie prospère entre les pays riverains et partenaires de
-                    l’océan à travers une la plateforme de GateAfri <a
-                        href="https://GateAfri.com">https://GateAfri.com</a> « le réseau social
-                    économique, touristique et socio-culturel de l’Afrique et de l’Océan Indien ». GateAfri.com sera
-                    présenté officiellement pendant cet événement. </p>
-            </div>
-        </div>
-        <div class="ojectif-item">
-            <div class="top">
-                <img src="{{ asset('assets/img/eco.jpg')}}" alt="">
-            </div>
-            <div class="capt">
-                <h2>RAYONNEMENT SUR L’ECONOMIE MONDIALE</h2>
-                <p>Valoriser et renforcer l'image de marque des acteurs économiques présents dans les pays riverains
-                    et partenaires de l'océan Indien revêt une importance capitale. Cela constitue un pilier
-                    essentiel pour l'avenir des relations économiques, commerciales, socio-culturelles et humaines
-                    entre l'Europe et l'Afrique. Il est primordial de démontrer que les pays riverains et
-                    partenaires de l'océan Indien jouent un rôle majeur dans le développement partagé et durable au
-                    sein de l'économie mondiale. </p>
-                <p><b><i>C'est dans cette perspective qu'un partenariat entre ces pays riverains et partenaires de
-                            l'océan Indien devient impérieux... </i></b></p>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="theme">
-    <div class="top">
-        <h1 class="gd-title">Thème de l’événement</h1>
-        <p style="color: white;"><strong>CEO BUSINESS FORUM INDIAN OCEAN:</strong> "Connecter l'Océan Indien, des
-            partenariats pour une
-            croissance durable."
-            <br> (Susceptibles de changer suite aux résultats de recherche fournis par le cercle de réflexion)
-        </p>
-    </div>
-    <div class="bottom">
-        <ul>
-            <li class="flex align-items-center gap-10">
-                <div class="ico"><i class="fa-brands fa-pagelines"></i></i></div>
-                <span class="white">Agriculture, agro-industrie, économie bleue</span>
-            </li>
-            <li class="flex align-items-center gap-10">
-                <div class="ico"><i class="fa-solid fa-compass"></i></div>
-                <span class="white">Infrastructures et développement touristique</span>
-            </li>
-            <li class="flex align-items-center gap-10">
-                <div class="ico"><i class="fa-solid fa-earth-africa"></i></div>
-                <span class="white">Investissements : regards croisés entre les pays riverains et partenaires de
-                    l’océan
-                    Indien</span>
-            </li>
-            <li class="flex align-items-center gap-10">
-                <div class="ico"><i class="fa-solid fa-building"></i></div>
-                <span class="white">Urbanisation et décentralisation</span>
-            </li>
-            <li class="flex align-items-center gap-10">
-                <div class="ico"><i class="fa-solid fa-robot"></i></div>
-                <span class="white">Développement numérique, Intelligence Artificielle et cybersécurité</span>
-            </li>
-            <li class="flex align-items-center gap-10">
-                <div class="ico"><i class="fa-solid fa-building-columns"></i></div>
-                <span class="white">Financement et développement des PME.</span>
-            </li>
-            <li class="flex align-items-center gap-10">
-                <div class="ico"><i class="fa-regular fa-lightbulb"></i></div>
-                <span class="white">Eau, énergie, développement durable</span>
-            </li>
-        </ul>
-    </div>
-</section>
-<section id="otherinfo">
-    <div class="align-items-center">
-        <div>
-            <p>- La durée de l'événement sera de deux (2) jours : de 8h30 à 17h30 le premier jour, et de 9h à 17h30
-                le
-                deuxième jour.</p>
-            <p>Le deuxième jour sera également suivi d'un Dîner de Gala à partir de 19h. L'événement se tiendra dans
-                un
-                lieu prestigieux à Madagascar, le Centre de Conférence International – Ivato Antananarivo, les jeudi
-                14
-                et vendredi 15 novembre 2024.</p>
+				</div>
+				<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+					<div class="img-obj"><img src="{{ asset('assets/img/png/ceo2.png') }}" alt="CEO Business Forum"></div>
+					<div class="text-obj">
+						<span>• Faciliter les échanges entre les acteurs économiques et gouvernementaux de l’océan Indien</span><br><br>
+						<span>• Encourager la collaboration entre sel pays de la région et les partenaires internationaux</span><br><br>
+						<span>• Renforcer les liens entre l 'océan Indien et le reste du monde</span>
+					</div>
 
-        </div>
-        <div class="img-parent">
-            <div class="img">
-                <img src="{{ asset('assets/img/cci.jpg')}}" alt="">
-            </div>
-        </div>
-        <div class="img-parent">
-            <div class="img">
-                <img src="{{ asset('assets/img/gn.jpg')}}" alt="">
-            </div>
-        </div>
-        <div>
-            <p>- L'événement se déroulera en présentiel avec des sessions plénières, et sera également disponible en
-                streaming sur <strong>www.GateNews.Africa</strong>, avec des intervenants en présentiel et en ligne.
-            </p>
-            <p>- Le nombre de participants en présentiel sera de 1000 personnes, tandis que l'événement touchera des
-                millions de followers en streaming.</p>
+				</div>
+				<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+					<div class="img-obj"><img src="{{ asset('assets/img/png/ceo2.png') }}" alt="CEO Business Forum"></div>
+					<div class="text-obj">
+						<span>• Débattre des enjeux économiques, sociaux et environnementaux de la région</span><br><br>
+						<span>• Identifier des solutions innovantes et inclusives pour relever ces défis</span><br><br>
+						<span>• Promouvoir la mise en œuvre de projets concrets et durables</span>
+					</div>
 
-        </div>
-    </div>
-</section>
-<section id="format">
-    <div class="top">
-        <h1 class="gd-title">Format de l’événement</h1>
-        <p>Le contenu du programme et la sélection des intervenants résultent d’une réflexion commune entre les
-            opérateurs du programme CEO Business Forum – Indian Ocean et parties prenantes engagées sur le sujet
-            <br> Démonstration et présentation de divers projets des participants et partenaires
-        </p>
-    </div>
-    <div class="animation">
-        <h3 class="txt-center">Animations et ateliers</h3>
-        <div class="row">
-            <div class="slider">
-                <div class="slide-track">
+				</div>
+				<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+					<div class="img-obj"><img src="{{ asset('assets/img/png/ceo2.png') }}" alt="CEO Business Forum"></div>
+					<div class="text-obj">
+						<span>• Créer un espace de rencontre et d'échange pour les chefs d'entreprises, les investisseurs et les décideurs politiques</span><br><br>
+						<span>• Faciliter la conclusion de partenariats commerciaux et la  création de joint ventures</span><br><br>
+						<span>• Promouvoir l’entrepreneuriat et l’innovation</span>
+					</div>
 
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo3.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Keynote
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo4.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Intervention des Guest Speakers
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo5.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Conférences plénières
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo6.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Ateliers thématiques
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo7.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Ateliers pays
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo8.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Happenings culturels
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo9.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Réseautage
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo10.webp')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Partenariats publics et privés
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <img class="card-img-top" style="height: 250px;" src="{{ asset('assets/img/new/ceo11.jpg')}}"
-                                alt="Card image">
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;">
-                                    Signature convention et accord de partenariat
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slide1">
-                        <div class="card" style="width:250px">
-                            <div class="img-top" style="width: 100%; height: 250px;">
-                                <img class="card-img-top" style="height: 50px;" src="{{ asset('assets/img/new/GATEAFR.png')}}"
-                                    alt="Card image">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title"></h4>
-                                <p class="card-text" style="color: black;  line-height: 21px;">
-                                    Présentation du nouveau social de l’Afrique et de l’océan Indien « GateAfri »
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="visualiser">
+		<div class="content">
+			<div class="header d-flex align-items justify-content-between mb-2">
+				<h1>Visualisez des vidéo</h1>
+				<div>
+					<button class="">
+						<i class="fa-solid fa-chevron-left"></i>
+					</button>
+					<button class="">
+						<i class="fa-solid fa-chevron-right"></i>
+					</button>
+				</div>
+			</div>
+			<div class="sld-video">
+				<div class="video-container">
+					<video controls>
+						<source src="video1.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="video-title">vidéo présentation CEO Business Forum Indian version Française</div>
+				</div>
+				<div class="video-container">
+					<video controls>
+						<source src="video2.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="video-title">vidéo présentation CEO Business Forum Indian version Anglaise</div>
+				</div>
+				<div class="video-container">
+					<video controls>
+						<source src="video3.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="video-title">vidéo présentation CEO Business Forum Indian version Original (Sous titrés Français)</div>
+				</div>
+				<div class="video-container">
+					<video controls>
+						<source src="video4.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="video-title">vidéo présentation CEO Business Forum Indian version Original (Sous titrés Anglais)</div>
+				</div>
+				<div class="video-container">
+					<video controls>
+						<source src="video5.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="video-title">vidéo présentation CEO Business Forum Indian version Original</div>
+				</div>
+				<div class="video-container">
+					<video controls>
+						<source src="video6.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="video-title">vidéo présentation CEO Business Forum Indian</div>
+				</div>
+			</div>
 
-                    <div id="event"></div>
+		</div>
+	</section>
+	<section class="cible">
+		<div class="d-flex align-items justify-content-between">
+			<div class="map"><img src="{{ asset('assets/img/carte-du-monde.jpg') }}" alt="Ocean Indien"></div>
+			<div class="cible-content">
+				<div class="cible-title">
+					<h1>Nos Cible:</h1>
+				</div>
+				<p>
+					1000 CEOs, acteurs économiques, dirigeants du secteur public et privé, entrepreneurs et structures d'appui, investisseurs, business angels, organismes institutionnels pertinents des pays riverains de l'océan Indien (Afrique du
+																		Sud, Comores, Kenya, Madagascar, La Réunion, Mayotte, Maurice, Mozambique, Seychelles, Somalie, Tanzanie, Bangladesh, Inde, Indonésie, Iran, Maldives, Malaisie, Oman, Singapour, Sri Lanka, Thailande, Yémen, Australie, Birmanie, Pakistan), et ses pays partenaires en Europe, Asie,
+																		Amérique et d'autres pays africains, ainsi que le monde diplomatique, les médias et les influenceurs.
+				</p>
+			</div>
+		</div>
+	</section>
 
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="pavillon">
-        <h3 class="txt-center">Pavillons de Madagascar</h3>
-        <p class="txt-center">Pavillon vitrine de Madagascar, pays récepteur de la première édition de l’événement.
-        </p>
-        <p class="txt-center">Ces pavillons sous forme de salon ou d’exposition accueilleront plusieurs participants
-            et les acteurs économiques de Madagascar mettront donc en valeur l’économie de Madagascar, et sera
-            surtout le reflet de l’économie Malagasy (artisanat, industrie, technologie, etc.)</p>
-    </div>
-</section>
-<section id="lieux">
-    <div class="flex">
-        <div class="left">
-            <h2>CEO Business Forum se tiendra au Centre de Conférence Internationale Ivato Madagascar :</h2>
-            <p>Un lieu d’exception au portail de Madagascar, près de l’aéroport international</p>
-            <ul>
-                <li class="flex align-items-center gap-10"><i class="bi bi-circle-fill"></i><span>Amphithéâtre ou
-                        salle de conférence de 1100 places</span></li>
-                <li class="flex align-items-center gap-10"><i class="bi bi-circle-fill"></i><span>Salle d’exposition
-                        de 1000m2</span></li>
-                <li class="flex align-items-center gap-10"><i class="bi bi-circle-fill"></i><span>9 Salles de
-                        réunion</span></li>
-                <li class="flex align-items-center gap-10"><i class="bi bi-circle-fill"></i><span>Plus de 2000
-                        places de parking</span></li>
-            </ul>
-        </div>
-        <div class="right">
-            <img src="{{ asset('assets/img/cci2.png')}}" alt="">
-        </div>
-    </div>
-</section>
-<section id="cibles">
-    <div class="top">
-        <h1 class="gd-title txt-center">Les cibles</h1>
-    </div>
-    <div class="bottom">
-        <p>- Les cibles de l'événement incluent les CEOs, les acteurs économiques, les dirigeants du secteur public
-            et privé, les entrepreneurs et les structures d'appui, les investisseurs et les business angels, ainsi
-            que les organismes institutionnels pertinents des pays riverains de l'océan Indien (Afrique du Sud,
-            Comores, Kenya, Madagascar, La Réunion, Maurice, Mozambique, Seychelles, Somalie, Tanzanie, Bangladesh,
-            Inde, Indonésie, Iran, Maldives, Malaisie, Oman, Singapour, Sri Lanka, Thaïlande, Yémen, Australie,
-            Birmanie, Pakistan), et ses pays partenaires en Europe, Asie, Amérique et d'autres pays africains, ainsi
-            que le monde diplomatique, les médias et les influenceurs.
-            - Des centaines de personnalités, y compris des chefs d'État, des ministres, des chefs d'entreprise, des
-            investisseurs, des créateurs et des influenceurs, seront mobilisées lors de l'événement.
-            - Le CEO BUSINESS FORUM - INDIAN OCEAN sera un événement annuel, tournant, et organisé dans les pays
-            membres.
-        </p>
-    </div>
-</section>
-<section id="avantages">
-    <div class="top">
-        <h1 class="gd-title">Les avantages de Madagascar<br /> pour l’accueil de l’évènement</h1>
-        <p><strong>L'organisation du CEO Business Forum - Indian Ocean à Madagascar</strong> revêt une importance
-            capitale. Cet événement accroît la visibilité internationale du pays en tant que destination privilégiée
-            pour les affaires et le tourisme, stimule l'économie locale en engendrant des retombées financières
-            conséquentes, renforce les liens internationaux, et offre aux entreprises Malgaches l'opportunité
-            d'établir des partenariats stratégiques et d'étendre leur réseau professionnel.
-            De ce fait, il catalyse la croissance économique du pays ainsi que de la région dans son ensemble.
-            Madagascar jouit d'une position géographique centrale au sein de l'océan Indien, ce qui en fait un
-            carrefour idéal pour les échanges commerciaux et les rencontres internationales.
-        </p>
-        <h2 class="txt-center">Madagascar : Un pays hôte aux atouts multiples</h2>
-    </div>
-    <div class="bottom flex gap-10">
-        <div>
-            <h3>Le choix de Madagascar comme pays hôte du CEO Business Forum - Indian Ocean n'est pas fortuit. La
-                Grande Ile présente de nombreux avantages indéniables :</h3>
-            <ul>
-                <li>Un environnement économique stable et attractif</li>
-                <li>Une main-d'œuvre qualifiée et dynamique</li>
-                <li>Un cadre naturel exceptionnel et une culture riche</li>
-                <li>Une position stratégique au cœur de l'Océan Indien</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Accueillir cet événement prestigieux sera une source de fierté pour Madagascar et contribuera à :
-            </h3>
-            <ul>
-                <li>Renforcer son image de destination d'affaires</li>
-                <li>Attirer des investissements étrangers</li>
-                <li>Stimuler la création d'emplois</li>
-                <li>Promouvoir le développement économique du pays</li>
-                <li>Positionner Madagascar en tant qu’acteur économique clé dans la région</li>
-            </ul>
-        </div>
-    </div>
-    <div>
-        <p class="txt-center"><strong>CEO Business Forum - Indian Ocean</strong> constitue une occasion
-            exceptionnelle pour Madagascar et son économie.</p>
-    </div>
-</section>
-<section id="stat" class="stat">
-    <div class="">
-        <div class="stat-content">
-            <h2>Statistiques sur l'Océan Indien </h2>
-            <div class="card-stat" style="width: 250px; margin-left: 0;">
-                <h4 class="card-title-stat">POPULATION</h4>
-                <img class="card-img-top-stat" src="{{ asset('assets/img/population2.webp')}}" alt="Card image">
-                <div class="card-body-stat">
-
-                    <p class="card-text-stat" style="color: black;">
-                        - Plus de 2 milliards d'habitants, soit environ 24% de la population mondiale. <br>
-                        - Pays les plus peuplés : Inde, Bangladesh, Pakistan, Iran, et Indonésie. <br>
-                        - Densité moyenne de 30 habitants par km², mais avec de grandes disparités (ex: 1100 hab/km²
-                        aux Maldives).
-
-                    </p>
-                </div>
-            </div>
-
-            <div class="card-stat" style="width:250px; ">
-                <h4 class="card-title-stat">SURFACE</h4>
-                <img class="card-img-top-stat" src="{{ asset('assets/img/superficie-terre.jpg')}}" alt="Card image">
-                <div class="card-body-stat">
-                    <p class="card-text-stat" style="color: black;">
-                        - 70 560 000 km², soit 14% de la surface terrestre du globe. <br><br>
-                        - Troisième plus grand océan après le Pacifique et l'Atlantique. <br><br>
-                        - Limité par l'Afrique à l'ouest, l'Asie au nord, l'Australie à l'est et l'Antarctique au
-                        sud.
-                    </p>
-                </div>
-            </div>
-
-            <div class="card-stat" style="width:250px">
-                <h4 class="card-title-stat">ECONOMIE</h4>
-                <img class="card-img-top-stat" src="{{ asset('assets/img/economie2.webp')}}" alt="Card image">
-                <div class="card-body-stat">
-                    <p class="card-text-stat" style="color: black;">
-                        - Zone économique en pleine croissance, avec un PIB de plus de 7 000 milliards de dollars en
-                        2023. <br>
-                        - Secteurs clés : agriculture, pêche, tourisme, industries manufacturières et services. <br>
-                        - Pays émergents : Inde, Chine, Afrique du Sud, et Kenya.
-                    </p>
-                </div>
-            </div>
-
-            <div class="card-stat" style="width:250px">
-                <h4 class="card-title-stat">POTENTIALITES</h4>
-                <img class="card-img-top-stat" src="{{ asset('assets/img/Potentialités.jpg')}}" alt="Card image">
-                <div class="card-body-stat">
-                    <p class="card-text-stat" style="color: black;">
-                        - Richesses naturelles importantes : pétrole, gaz naturel, minéraux, et ressources
-                        marines.<br>
-                        - Développement des énergies renouvelables : solaire, éolienne, et hydroélectrique. <br>
-                        - Expansion du commerce international et des infrastructures.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="program">
-    <div class="top">
-        <h1 class="gd-title txt-center">Les programmes du CEO Networking<br /> Indian Ocean CCI Ivato</h1>
-    </div>
-    <div class="bottom flex">
-        <div class="j-item">
-            <div class="top">
-                <h2 class="txt-center">Jeudi 14 novembre 2024</h2>
-            </div>
-            <div class="bottom flex gap-10">
-                <div class="left">
-                    <ul>
-                        <li>
-                            <a href="#" class="active">08h - 09h</a>
-                        </li>
-                        <li>
-                            <a href="#">09h - 09h30</a>
-                        </li>
-                        <li>
-                            <a href="#">09h30 - 10h</a>
-                        </li>
-                        <li>
-                            <a href="#">11h - 12h30</a>
-                        </li>
-                        <li>
-                            <a href="#">12h30 - 13h30</a>
-                        </li>
-                        <li>
-                            <a href="#">13h30 - 14h30</a>
-                        </li>
-                        <li>
-                            <a href="#">14h30 - 16h</a>
-                        </li>
-                        <li>
-                            <a href="#">16h - 16h15</a>
-                        </li>
-                        <li>
-                            <a href="#">16h15 - 17h30</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="right">
-                    <div class="h">
-                        <h3>08h à 09h</h3>
-                        <p>Accueil des invités et enregistrement</p>
-                    </div>
-                    <div class="h">
-                        <h3>09h à 09h30</h3>
-                        <p>Cérémonie d’ouverture</p>
-                    </div>
-                    <div class="h">
-                        <h3>09h30 à 10h</h3>
-                        <p>Keynote 1 - Guest speaker (3 Invités)</p>
-                    </div>
-                    <div class="h">
-                        <h3>11h à 12h30</h3>
-                        <p>Keynote 2 - Guest Speaker (5 invités)</p>
-                    </div>
-                    <div class="h">
-                        <h3>12h30 à 13h30</h3>
-                        <p>Pause déjeuner</p>
-                    </div>
-                    <div class="h">
-                        <h3>13h30 à 14h30</h3>
-                        <p>Session ministérielle</p>
-                    </div>
-                    <div class="h">
-                        <h3>14h30 à 16h</h3>
-                        <p>3 ateliers en parallèle dans 3 salles différentes. Keynote 3
-                            4 Guest Speaker dans chaque salle.
-                        </p>
-                    </div>
-                    <div class="h">
-                        <h3>16h à 16h15</h3>
-                        <p>Pause-café</p>
-                    </div>
-                    <div class="h">
-                        <h3>16h15 à 17h30</h3>
-                        <p>Séance de B2B, B2G et de Networking selon thématique.
-                            Se déroulera dans 3 salles différentes
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="j-item">
-            <div class="top">
-                <h2 class="txt-center">vendredi 15 novembre 2024</h2>
-            </div>
-            <div class="bottom flex gap-10">
-                <div class="left">
-                    <ul>
-                        <li>
-                            <a href="#" class="active">09h - 09h30</a>
-                        </li>
-                        <li>
-                            <a href="#">09h30 - 10h</a>
-                        </li>
-                        <li>
-                            <a href="#">10h - 10h15</a>
-                        </li>
-                        <li>
-                            <a href="#">10h15 - 11h</a>
-                        </li>
-                        <li>
-                            <a href="#">12h30 - 13h30</a>
-                        </li>
-                        <li>
-                            <a href="#">13h30 - 14h30</a>
-                        </li>
-                        <li>
-                            <a href="#">14h30 - 16h</a>
-                        </li>
-                        <li>
-                            <a href="#">16h - 16h15</a>
-                        </li>
-                        <li>
-                            <a href="#">16h15 - 17h30</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="right">
-                    <div class="h">
-                        <h3>09h à 09h30</h3>
-                        <p>Keynote 4 avec 2 Guest speaker</p>
-                    </div>
-                    <div class="h">
-                        <h3>09h30 à 10h</h3>
-                        <p>Session Ministérielle</p>
-                    </div>
-                    <div class="h">
-                        <h3>10h à 10h15</h3>
-                        <p>Pause-café</p>
-                    </div>
-                    <div class="h">
-                        <h3>10h15 à 11h</h3>
-                        <p>Keynote 2 - Guest Speaker (5 invités)</p>
-                    </div>
-                    <div class="h">
-                        <h3>11h à 12h</h3>
-                        <p>Keynote 6 – Guest Speaker (3 invités)</p>
-                    </div>
-                    <div class="h">
-                        <h3>12h à 13h</h3>
-                        <p>Pause déjeuner</p>
-                    </div>
-                    <div class="h">
-                        <h3>14h30 à 16h</h3>
-                        <p>3 ateliers en parallèle dans 3 salles différentes. Keynote 3
-                            4 Guest Speaker dans chaque salle.
-                        </p>
-                    </div>
-                    <div class="h">
-                        <h3>16h à 16h15</h3>
-                        <p>Pause-café</p>
-                    </div>
-                    <div class="h">
-                        <h3>16h15 à 17h30</h3>
-                        <p>Séance de B2B, B2G et de Networking selon thématique.
-                            Se déroulera dans 3 salles différentes
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div style="text-align: center;">
-        <button class="button" style="margin: auto;">Telecharger la brochure</button>
-    </div>
-    
-</section>
 {% endblock %}
