@@ -25,6 +25,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.txt-blue1{
+    color: var(--blue1);
+}
+.txt-blue2{
+    color: var(--blue2);
+}
+.txt-blue3{
+    color: var(--blue3);
+}
 .tab{
     margin-left: 40px;
 }
