@@ -1182,22 +1182,24 @@ section#program p{
     color: #25a0d8;
 }
 /* ====================== button ====================== */
-.button{
-    margin-top: 15px;
-    text-transform: uppercase;
-    border: 0;
-    background: transparent;
+.register-btn{
+    font-weight: 500 !important;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid var(--grid1);
     color: #fff;
-    position: relative;
-    overflow: hidden;
-    padding: 10px 20px;
-    border-radius: 30px;
-    cursor: pointer;
-    box-shadow: 0px -0px 0px 0px var(--blue2), 0px 0px 0px 0px var(--blue1);
-    transition: all .2s;
-    z-index: 100;
+    transition: 0.3s;
+    transition-property: color, background-color;
+    text-transform: uppercase;
 }
-.button::after{
+.register-btn:hover{
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+}
+/* .button::after{
     content: "";
     width: 300px;
     height: 300px;
@@ -1210,17 +1212,44 @@ section#program p{
 }
 .button:hover::after{
     transform: rotate(150deg);
-}
-.button:hover{
-    transform: translate(0, -6px);
-    box-shadow: 10px -10px 25px 0px var(--blue2), -10px 10px 25px 0px var(--blue1);
-}
+} */
 .button a{
     text-decoration: none;
-    color: #fff;
-    z-index: 101;
-
 }
+.button a:hover{
+    text-decoration: none;
+}
+.lang{
+    border: none;
+    background-color: transparent;
+}
+/* .lang img{
+    display: block;
+    width: 25px;
+    height: 25px;
+} */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
 
 /* ================= reportage =============== */
 #reportage{
