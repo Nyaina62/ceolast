@@ -1,9 +1,10 @@
 $(document).ready(function(){
     $('.secteur').slick({
-        slidesToShow: 6,
+        slidesToShow: 7,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
+        arrows:false
     });
   });
 
