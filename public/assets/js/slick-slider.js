@@ -17,3 +17,15 @@ $(document).ready(function(){
       adaptiveHeight: true
     });
   });
+
+  $(document).ready(function(){
+    $('.banner-background').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear'
+    });
+  });
+
+ 
