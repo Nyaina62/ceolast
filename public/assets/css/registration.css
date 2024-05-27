@@ -11,6 +11,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+p{
+    font-size: 15px;
+}
 
 .registration-form-container {
     margin-top: -200px;
@@ -21,18 +24,19 @@
     background: white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-bottom: 20px;
 }
 
-.user-registration-form>div:nth-child(even){
+/* .user-registration-form>div:nth-child(even){
     padding-top: 100px !important;
     border-radius:  0 0 5px 5px;
 }
 .user-registration-form>div:nth-child(odd){
     padding-bottom: 100px !important;
     border-radius: 5px 5px 0 0;
-}
+} */
 
-.user-registration-form>div:not(:last-child):after {
+/* .user-registration-form>div:not(:last-child):after {
     content: "";
     position: absolute;
     width: 100%;
@@ -43,7 +47,7 @@
     bottom: -48px;
     left: 0;
     z-index: 10;
-}
+} */
 
 .user-registration-form .top h2 {
     font-size: 25px;
@@ -155,3 +159,27 @@
     background-color: #eee;
     color: #444 !important;
 } */
+.registration-btn{
+    border: none;
+    background: var(--blue1);
+    color: white;
+    padding: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 50px;
+    border-radius: 6px;
+}
+.reduc-p{
+    color: #555;
+    font-weight: 500;
+    font-size: 15px;
+}
+.reduc-price{
+    color: var(--blue1);
+    font-size: 40px;
+}
+.normal-price{
+    font-size: 20px;
+    text-decoration:line-through;
+    color: #5c5c5c;
+}

@@ -1,9 +1,10 @@
 $(document).ready(function(){
     $('.secteur').slick({
-        slidesToShow: 6,
+        slidesToShow: 7,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
+        arrows:false
     });
   });
 
@@ -19,8 +20,10 @@ $(document).ready(function(){
   });
 
   $(document).ready(function(){
-    $('.banner-background').slick({
-      dots: true,
+    $('.banner-slider').slick({
+      autoplay:true,
+      dots: false,
+      arrows:false,
       infinite: true,
       speed: 500,
       fade: true,
