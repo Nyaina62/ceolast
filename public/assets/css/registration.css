@@ -183,3 +183,24 @@ p{
     text-decoration:line-through;
     color: #5c5c5c;
 }
+#webcamModal .modal-content{
+    overflow: hidden !important;
+}
+#webcamModal .modal-footer{
+    bottom: 0;
+    left: 0;
+    border: none;
+    
+}
+#takePhotoBtn{
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    padding: 0 15px;
+    border: 1px solid white;
+    color: white;
+}
