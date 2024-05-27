@@ -12,7 +12,7 @@
 }
 
 .banner {
-    height: 700px;
+    height: 750px;
     padding-top: 100px;
     background: #254279a1;
     background-attachment: fixed;
@@ -68,10 +68,12 @@
 }
 .banner-slider {
     z-index: -1;
+    margin-top: -100px;
 }
 
 .banner-slider .banner-slide {
-    height: 100vh;
+    margin-top: -50px;
+    height: 800px;
 }
 
 .banner-slider .banner-slide img {
@@ -169,6 +171,7 @@
 }
 .p-logo{
     display: flex;
+    width: 200px;
 }
 .parrain .logo-parrain{
     justify-content: center;
