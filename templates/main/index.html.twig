@@ -10,23 +10,23 @@
 
 {% block body %}
 	{# <section id="parallax" class="parallax">
-											<div class="parallax">
-												<img src="{{ asset('assets/img/png/ciel.png') }}" alt="ciel" id="ciel" srcset="">
-												<img src="{{ asset('assets/img/png/mer.png') }}" alt="mer" id="mer" srcset="">
-												<img src="{{ asset('assets/img/png/bulding.png') }}" alt="ciel" id="bulding" srcset="">
-												<img src="{{ asset('assets/img/png/ceo2.png') }}" alt="ciel" id="ceo" srcset="">
-											</div>
-										</section> #}
+												<div class="parallax">
+													<img src="{{ asset('assets/img/png/ciel.png') }}" alt="ciel" id="ciel" srcset="">
+													<img src="{{ asset('assets/img/png/mer.png') }}" alt="mer" id="mer" srcset="">
+													<img src="{{ asset('assets/img/png/bulding.png') }}" alt="ciel" id="bulding" srcset="">
+													<img src="{{ asset('assets/img/png/ceo2.png') }}" alt="ciel" id="ceo" srcset="">
+												</div>
+											</section> #}
 
-										<div class="banner position-relative">
-										<div class="banner-slider position-absolute w-100 h-100">
-											<div class="banner-slide position-relative">
-												<img class="position-absolute" src="{{ asset('assets/img/portrait/banner2.png') }}" alt="">
-											</div>
-											<div class="banner-slide position-relative">
-												<img class="position-absolute" src="{{ asset('assets/img/portrait/banner1.jpg') }}" alt="">
-											</div>
-										</div>
+	<div class="banner position-relative">
+		<div class="banner-slider position-absolute w-100 h-100">
+			<div class="banner-slide position-relative">
+				<img class="position-absolute" src="{{ asset('assets/img/portrait/banner2.png') }}" alt="">
+			</div>
+			<div class="banner-slide position-relative">
+				<img class="position-absolute" src="{{ asset('assets/img/portrait/banner1.jpg') }}" alt="">
+			</div>
+		</div>
 		<div class="parrain">
 			<div class="parrain-tittle">
 				<span>Sous le haut parrainage:</span>
@@ -106,188 +106,184 @@
 	</div>
 
 	<section class="sec-secteur" id="theme">
-	<h2 class="mb-5">Plusieurs secteurs seront discutés</h2>
-	<div class="position-relative">
-		<div class="sec-prev position-absolute">
-			<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-				class="bi bi-chevron-left" viewBox="0 0 16 16">
-				<path fill-rule="evenodd"
-					d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
-			</svg>
+		<h2 class="mb-5">Plusieurs secteurs seront discutés</h2>
+		<div class="position-relative">
+			<div class="sec-prev position-absolute">
+				<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-chevron-left" viewbox="0 0 16 16">
+					<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+				</svg>
+			</div>
+			<div class="sec-next position-absolute">
+				<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-chevron-right" viewbox="0 0 16 16">
+					<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+				</svg>
+			</div>
+			<div class="secteur px-0">
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-leaf"></i>
+						</div>
+						<span class="text-center">Economie</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-computer"></i>
+						</div>
+						<span class="text-center">Numerique</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-cloud-showers-heavy"></i>
+						</div>
+						<span class="text-center">Climat</span>
+					</div>
+
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-brands fa-envira"></i>
+						</div>
+						<span class="text-center">Envirenement</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-brands fa-leanpub"></i>
+						</div>
+						<span class="text-center">Education</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-water"></i>
+						</div>
+						<span class="text-center">Economie bleu</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-helmet-safety"></i>
+						</div>
+						<span>Logistique</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-truck-fast"></i>
+						</div>
+						<span>Transport</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-shirt"></i>
+						</div>
+						<span>Textile</span>
+					</div>
+
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-ship"></i>
+						</div>
+						<span>Tourisme</span>
+					</div>
+
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-prescription-bottle-medical"></i>
+						</div>
+						<span>Santé</span>
+					</div>
+
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-bolt"></i>
+						</div>
+						<span>Energie</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-gem"></i>
+						</div>
+						<span>Mines</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-tractor"></i>
+						</div>
+						<span>Agriculture</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-clapperboard"></i>
+						</div>
+						<span>Audiovisuel</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-building-columns"></i>
+						</div>
+						<span>Gouvernance</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-money-bill-trend-up"></i>
+						</div>
+						<span>Finance</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-building"></i>
+						</div>
+						<span>Urbanisation</span>
+					</div>
+				</div>
+				<div class="secteur-content">
+					<div class="content">
+						<div class="icon">
+							<i class="fa-solid fa-hand-holding-heart"></i>
+						</div>
+						<span class="text-center">Ong et<br>
+							Organisation
+							<br>
+							internationales</span>
+					</div>
+
+				</div>
+			</div>
+
+
 		</div>
-		<div class="sec-next position-absolute">
-			<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-				class="bi bi-chevron-right" viewBox="0 0 16 16">
-				<path fill-rule="evenodd"
-					d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
-			</svg>
-		</div>
-		<div class="secteur px-0">
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-leaf"></i>
-					</div>
-					<span class="text-center">Economie</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-computer"></i>
-					</div>
-					<span class="text-center">Numerique</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-cloud-showers-heavy"></i>
-					</div>
-					<span class="text-center">Climat</span>
-				</div>
-
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-brands fa-envira"></i>
-					</div>
-					<span class="text-center">Envirenement</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-brands fa-leanpub"></i>
-					</div>
-					<span class="text-center">Education</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-water"></i>
-					</div>
-					<span class="text-center">Economie bleu</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-helmet-safety"></i>
-					</div>
-					<span>Logistique</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-truck-fast"></i>
-					</div>
-					<span>Transport</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-shirt"></i>
-					</div>
-					<span>Textile</span>
-				</div>
-
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-ship"></i>
-					</div>
-					<span>Tourisme</span>
-				</div>
-
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-prescription-bottle-medical"></i>
-					</div>
-					<span>Santé</span>
-				</div>
-
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-bolt"></i>
-					</div>
-					<span>Energie</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-gem"></i>
-					</div>
-					<span>Mines</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-tractor"></i>
-					</div>
-					<span>Agriculture</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-clapperboard"></i>
-					</div>
-					<span>Audiovisuel</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-building-columns"></i>
-					</div>
-					<span>Gouvernance</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-money-bill-trend-up"></i>
-					</div>
-					<span>Finance</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-building"></i>
-					</div>
-					<span>Urbanisation</span>
-				</div>
-			</div>
-			<div class="secteur-content">
-				<div class="content">
-					<div class="icon">
-						<i class="fa-solid fa-hand-holding-heart"></i>
-					</div>
-					<span class="text-center">Ong et<br>
-						Organisation
-						<br>
-						internationales</span>
-				</div>
-
-			</div>
-		</div>
-
-
-	</div>
-</section>
+	</section>
 
 
 	<section class="objectifMaj py-5" id="objectif">
@@ -333,7 +329,9 @@
 
 				</div>
 				<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-					<div class="img-obj"><img src="{{ asset('assets/img/new/ceo6.webp') }}" alt="CEO Business Forum"></div>
+					<div class="img-obj">
+						<img src="{{ asset('assets/img/new/ceo6.webp') }}" alt="CEO Business Forum">
+					</div>
 					<div class="text-obj">
 						<span>• Débattre des enjeux économiques, sociaux et environnementaux de la région</span><br><br>
 						<span>• Identifier des solutions innovantes et inclusives pour relever ces défis</span><br><br>
@@ -428,8 +426,8 @@
 				</div>
 				<p>
 					1000 CEOs, acteurs économiques, dirigeants du secteur public et privé, entrepreneurs et structures d'appui, investisseurs, business angels, organismes institutionnels pertinents des pays riverains de l'océan Indien (Afrique du
-																																																																																								Sud, Comores, Kenya, Madagascar, La Réunion, Mayotte, Maurice, Mozambique, Seychelles, Somalie, Tanzanie, Bangladesh, Inde, Indonésie, Iran, Maldives, Malaisie, Oman, Singapour, Sri Lanka, Thailande, Yémen, Australie, Birmanie, Pakistan), et ses pays partenaires en Europe, Asie,
-																																																																																								Amérique et d'autres pays africains, ainsi que le monde diplomatique, les médias et les influenceurs.
+																																																																																													Sud, Comores, Kenya, Madagascar, La Réunion, Mayotte, Maurice, Mozambique, Seychelles, Somalie, Tanzanie, Bangladesh, Inde, Indonésie, Iran, Maldives, Malaisie, Oman, Singapour, Sri Lanka, Thailande, Yémen, Australie, Birmanie, Pakistan), et ses pays partenaires en Europe, Asie,
+																																																																																													Amérique et d'autres pays africains, ainsi que le monde diplomatique, les médias et les influenceurs.
 				</p>
 			</div>
 		</div>
@@ -474,7 +472,7 @@
 					</div>
 					<div class="tab-pane fade leforum-content" id="pills-profile" role="tabpanel">
 						<div class="leforum-img">
-						<img src="{{ asset('assets/img/sary/TSR_1514.jpg') }}" alt="CEO Business Forum" class="img-1">
+							<img src="{{ asset('assets/img/sary/TSR_1514.jpg') }}" alt="CEO Business Forum" class="img-1">
 						</div>
 						<div class="leforum-img stand">
 							<img src="{{ asset('assets/img/sary/TSR_1548.jpg') }}" alt="CEO Business Forum" class="img-stand">
@@ -536,28 +534,25 @@
 					</div>
 				</div>
 			</div>
-		<div class="ceo-illustration d-flex justify-content-space-between mb-5">
-			<div style="margin-left: 0">
-				<img src="{{ asset('assets/img/portrait/ceo agro.jfif') }}" alt="CEO Business Forum" class="c-img img-1">
-			</div>
-			<div>
-				<img src="{{ asset('assets/img/portrait/ceo ia.jfif') }}" alt="CEO Business Forum" class="c-img img-2">
-			</div>
-			<div>
-				<img src="{{ asset('assets/img/portrait/ceo banque.jfif') }}" alt="CEO Business Forum" class="c-img img-3">
-			</div>
-			<div>
-				<img src="{{ asset('assets/img/portrait/ceo industrie.jfif') }}" alt="CEO Business Forum" class="c-img img-4">
-			</div>
-			<div>
-				<img src="{{ asset('assets/img/portrait/coe economie.jfif') }}" alt="CEO Business Forum" class="c-img img-5">
-			</div>
+			<div class="ceo-illustration d-flex justify-content-space-between mb-5">
+				<div style="margin-left: 0">
+					<img src="{{ asset('assets/img/portrait/ceo agro.jfif') }}" alt="CEO Business Forum" class="c-img img-1">
+				</div>
+				<div>
+					<img src="{{ asset('assets/img/portrait/ceo ia.jfif') }}" alt="CEO Business Forum" class="c-img img-2">
+				</div>
+				<div>
+					<img src="{{ asset('assets/img/portrait/ceo banque.jfif') }}" alt="CEO Business Forum" class="c-img img-3">
+				</div>
+				<div>
+					<img src="{{ asset('assets/img/portrait/ceo industrie.jfif') }}" alt="CEO Business Forum" class="c-img img-4">
+				</div>
+				<div>
+					<img src="{{ asset('assets/img/portrait/coe economie.jfif') }}" alt="CEO Business Forum" class="c-img img-5">
+				</div>
 
 
-		</div>
-
-
-
+			</div>
 
 
 		</div>
@@ -569,11 +564,11 @@
 			<h1 class="mb-4">Reportages photos</h1>
 			<h4>Photos marquant la conférence de presse et le lancement officiel de l'évenement
 				<br>qui s'est déroulé au CCI
-																																																            Ivato Antananarivo le 14 Mai 2024</h4>
+																																																				            Ivato Antananarivo le 14 Mai 2024</h4>
 			<p class="text-justify">La présentation du CEO BUSINESS FORUM INDIAN OCEAN A suscité une réaction enthousiaste parmi
-																																																            l'assistance,composée de la communauté économique nationale et internatinale,représentants de groupements
-																																																            professionnels,des responsables gouvernementaux,des organismes internationaux, des acteurs économiques ainsi
-																																																            que des membres du corps diplomatique.</p>
+																																																				            l'assistance,composée de la communauté économique nationale et internatinale,représentants de groupements
+																																																				            professionnels,des responsables gouvernementaux,des organismes internationaux, des acteurs économiques ainsi
+																																																				            que des membres du corps diplomatique.</p>
 		</div>
 		<div class="bottom">
 			<div class="reportage-slider">
@@ -649,7 +644,7 @@
 				et nos MAIN SPEAKER
 				<br>pour ce grand forum économique<br>
 				du 14 au 15
-																																																            Novembre 2024 ?</h1>
+																																																				            Novembre 2024 ?</h1>
 			<p>Rendez-vous
 				<strong>ce 14 Juin</strong>
 				pour les connaitre</p>
@@ -694,7 +689,7 @@
 		</div>
 		<div class="mt-3">
 			<p class="text-center">Voulez-vous devenir un de nos Guest Speaker ou Main Speaker ?<br>Envoyez votre dossier de
-																																																            candidature en cliquant
+																																																				            candidature en cliquant
 				<a href="{{ path('register') }}">ici</a>
 			</p>
 		</div>
@@ -711,7 +706,7 @@
 		<div class="bottom px-0">
 			<div class="bbl">
 				<p>Le choix de madagascar comme pays hote du CEO Business Forum - Indian Ocean n'est pas fortuit. La Grande
-																																																									                Île présente de nombreux avantages indéniables</p>
+																																																														                Île présente de nombreux avantages indéniables</p>
 			</div>
 			<ul>
 				<li>- Un evironnement économique stable et attractif</li>
@@ -735,10 +730,10 @@
 		<div class="top px-0">
 			<h1>PAVILLON DE MADAGASCAR:</h1>
 			<p class="text-white">Pavillon vitrine de Madagascar, pays récepteur de la première édition de
-																																																            l'évenement sous form de sallon ou d'éxposition, ils accueillerons plusieurs participants et les acteurs
-																																																            économiques
-																																																            de Madagascar.Ces pavillons mettront donc en valeur l'économie de Madagascar, et sera surtout le reflet de
-																																																            l'économie Malagasy (artisanat, industrie, technologie, etc.)
+																																																				            l'évenement sous form de sallon ou d'éxposition, ils accueillerons plusieurs participants et les acteurs
+																																																				            économiques
+																																																				            de Madagascar.Ces pavillons mettront donc en valeur l'économie de Madagascar, et sera surtout le reflet de
+																																																				            l'économie Malagasy (artisanat, industrie, technologie, etc.)
 			</p>
 			<h2>Les cibles :</h2>
 		</div>
@@ -755,7 +750,7 @@
 				</div>
 				<h3>EXPOSITION</h3>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, omnis odio aspernatur cum doloremque
-																																																									                consequatur non nemo. Exercitationem!</p>
+																																																														                consequatur non nemo. Exercitationem!</p>
 			</div>
 			<div class="pavillon-item position-relative">
 				<div class="ico position-absolute">
@@ -763,7 +758,7 @@
 				</div>
 				<h3>ANIMATION</h3>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, omnis odio aspernatur cum doloremque
-																																																									                consequatur non nemo. Exercitationem!</p>
+																																																														                consequatur non nemo. Exercitationem!</p>
 			</div>
 			<div class="pavillon-item position-relative">
 				<div class="ico position-absolute">
@@ -771,7 +766,7 @@
 				</div>
 				<h3>PROMOTION</h3>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, omnis odio aspernatur cum doloremque
-																																																									                consequatur non nemo. Exercitationem!</p>
+																																																														                consequatur non nemo. Exercitationem!</p>
 			</div>
 			<div class="pavillon-item position-relative">
 				<div class="ico position-absolute">
@@ -779,7 +774,7 @@
 				</div>
 				<h3>VENTES</h3>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, omnis odio aspernatur cum doloremque
-																																																									                consequatur non nemo. Exercitationem!</p>
+																																																														                consequatur non nemo. Exercitationem!</p>
 			</div>
 			<div class="pavillon-item position-relative">
 				<div class="ico position-absolute">
@@ -787,15 +782,15 @@
 				</div>
 				<h3>B2C</h3>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, omnis odio aspernatur cum doloremque
-																																																									                consequatur non nemo. Exercitationem!</p>
+																																																														                consequatur non nemo. Exercitationem!</p>
 			</div>
 		</div>
 	</section>
 {% endblock %}
 
 {% block scripts %} <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-																					    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
-																					    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+																						    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+																						    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	 <script src="{{ asset('assets/js/doslider.js')}}"></script>
 
 {% endblock %}
